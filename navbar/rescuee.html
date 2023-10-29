@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rescuee.css">
+</head>
+<body>
+    <div class="container">
+        <div id="Details">
+            <span class="det">
+                <strong>Enter Details</strong>
+            </span>
+         </div>
+         
+         <div id="mandatory">
+            <span class="mandat">
+                <strong>Fields marked
+                    <text style="color: red"><b>*</b></text>
+                    are mandatory
+                </strong>
+            </span>
+         </div>
+        
+    </div>
+    <hr>
+    <br>
+<div class="form-container">
+    <form>
+        <div class="line">
+        <p>Name<text style="color: red"><b>*</b></text></p>
+        <input type="text" name="name" required>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Gender<text style="color: red"><b>*</b></text></legend>
+        <p>
+            <div class="male"><input type="radio" name="gender" id="male">Male</div>
+            <div class="Female"><input type="radio" name="gender" id="Female">Female</div>
+            <div class="Transgender"><input type="radio" name="gender" id="Transgender">Transgender</div>
+        </p>
+        </fieldset>
+    </div>
+
+        <p>Address<text style="color: red"><b>*</b></text> </p>
+        <textarea name="address" id="address" rols="30" cols="10"></textarea>
+
+        <p>Pincode</p>
+        <input type="number" name="name">
+
+        <p>State
+            <select name="state" id="state">
+                <option value="">-Select a state-</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="ArP">Arunachal Pradesh</option>
+                <option value="As">Assam</option>
+                <option value="Bi">Bihar</option>
+                <option value="C">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Guj">Gujarat</option>
+                <option value="Har">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="Jhar">Jharkhand</option>
+                <option value="Kar">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Megh">Meghalaya</option>
+                <option value="Mizo">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="WB">West Bengal</option>
+            </select>
+        </p>
+
+        <p>District</p>
+        <input type="text" name="district">
+
+        <p>Phone number<text style="color: red"><b>*</b></text> </p>
+        <input type="number" name="phn">
+
+        <p>Email Address<text style="color: red"><b>*</b></text></p>
+        <input type="text" name="email">
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Are you an Ex-Servicemen?<text style="color: red"><b>*</b></text></legend>
+        <p>
+            <div class="Yes"><input type="radio" name="servicemen" id="Yes">Yes</div>
+            <br>
+            <div class="No"><input type="radio" name="servicemen"id="No">No</div>
+
+        </p>
+        </fieldset>  
+        
+        <button type="submit"><a href="confsignup.html">Submit</a></button>
+
+    </form>
+</div>
+    <div>
+
+</body>
+</html>

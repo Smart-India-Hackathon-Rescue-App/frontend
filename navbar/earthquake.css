@@ -1,0 +1,55 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: monospace; 
+
+
+    }
+ #container {  
+    background-color: lavender;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+      
+    }  
+    header * {  
+        display: inline; 
+        
+        }  
+        header li {  
+        margin: 20px;  
+        font-size:1rem;
+        
+        }  
+        header li a {  
+        color: mediumslateblue;  
+        text-decoration: none; 
+        
+        }
+    #precautions{
+        color: red;
+    }
+    .ear_qua_pre{
+        color:rgb(14, 15, 14);
+        font-size: 1.2rem;
+        
+        
+    }
+    .ear{
+        display: block;
+margin-left: auto;
+margin-right:auto;
+width: 50%;
+    }

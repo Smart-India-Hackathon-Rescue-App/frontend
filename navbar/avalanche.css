@@ -1,0 +1,68 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: monospace;  
+}  
+
+ #container {  
+    background-color: lavender;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+      
+    }  
+    header * {  
+        display: inline; 
+        
+        }  
+        header li {  
+        margin: 20px;  
+        font-size:1rem;
+        
+        }  
+        header li a {  
+        color: mediumslateblue;  
+        text-decoration: none; 
+        
+        }
+    #precautions{
+        color:red;
+        
+
+    }
+.avalanche_pre{
+    font-size:1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.avalanche_img{
+    background-image: url(avalanche.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+}
+.content_A{
+    color: rgb(57, 134, 222);
+    -webkit-text-stroke: 1.5px #010b0b;
+    
+    padding-top :250px;
+    padding-bottom:250px;
+    padding-left:50px;
+    padding-right:50px;
+}

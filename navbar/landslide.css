@@ -1,0 +1,63 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: monospace; 
+
+
+    }
+ #container {  
+    background-color: lavender;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+      
+    }  
+    header * {  
+        display: inline; 
+        
+        }  
+        header li {  
+        margin: 20px;  
+        font-size:1rem;
+        
+        }  
+        header li a {  
+        color: mediumslateblue;  
+        text-decoration: none; 
+        
+        }
+    #precautions{
+        color: red;
+    }
+.landslide_img{
+  
+    height: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.content_l{
+    font-size: 46px;
+    color: rgba(14, 87, 4, 0.734);
+    -webkit-text-stroke: 1.5px #40290c;
+    
+
+}
+.landslide_pre{
+    font-size:1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

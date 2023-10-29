@@ -1,0 +1,71 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: monospace; 
+
+
+    }
+ #container {  
+    background-color: lavender;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+      
+    }  
+    header * {  
+        display: inline; 
+        
+        }  
+        header li {  
+        margin: 20px;  
+        font-size:1rem;
+        
+        }  
+        header li a {  
+        color: mediumslateblue;  
+        text-decoration: none; 
+        
+        }
+    #precautions{
+        color: red;
+    }
+.fire_img{
+    background-image: url(fire.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    
+}
+.content_f{
+    
+    color: rgb(211, 95, 37);
+    -webkit-text-stroke: 1px #dfdcd8;
+    
+    padding-top :200px;
+    padding-bottom:200px;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.fire_pre{
+    font-size:1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
